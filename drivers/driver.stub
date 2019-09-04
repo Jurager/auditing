@@ -1,0 +1,34 @@
+<?php
+
+namespace DummyNamespace;
+
+use Jurager\Auditing\Contracts\Audit;
+use Jurager\Auditing\Contracts\Auditable;
+use Jurager\Auditing\Contracts\AuditDriver;
+
+class DummyClass implements AuditDriver
+{
+    /**
+     * Perform an audit.
+     *
+     * @param \Jurager\Auditing\Contracts\Auditable $model
+     *
+     * @return \Jurager\Auditing\Contracts\Audit
+     */
+    public function audit(Auditable $model): Audit
+    {
+        // TODO: Implement the audit logic
+    }
+
+    /**
+     * Remove older audits that go over the threshold.
+     *
+     * @param \Jurager\Auditing\Contracts\Auditable $model
+     *
+     * @return bool
+     */
+    public function prune(Auditable $model): bool
+    {
+        // TODO: Implement the pruning logic
+    }
+}
