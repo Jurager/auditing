@@ -64,9 +64,6 @@
         "laravelista/lumen-vendor-publish": "Needed to publish the package configuration in Lumen"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "9.0-dev"
-        },
         "laravel": {
             "providers": [
                 "Jurager\\Auditing\\AuditingServiceProvider"
