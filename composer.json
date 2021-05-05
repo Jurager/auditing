@@ -17,13 +17,8 @@
         "revision",
         "tracking"
     ],
-    "homepage": "http://laravel-auditing.com",
     "type": "package",
     "license": "MIT",
-    "support": {
-        "issues": "https://github.com/owen-it/laravel-auditing/issues",
-        "source": "https://github.com/owen-it/laravel-auditing"
-    },
     "authors": [
         {
             "name": "Antério Vieira",
@@ -39,7 +34,7 @@
         }
     ],
     "require": {
-        "php": ">=7.3",
+        "php": "^7.3|^8.0",
         "illuminate/console": "^6.0|^7.0|^8.0",
         "illuminate/database": "^6.0|^7.0|^8.0",
         "illuminate/filesystem": "^6.0|^7.0|^8.0",
@@ -59,9 +54,6 @@
         "psr-4": {
             "Jurager\\Auditing\\Tests\\": "tests/"
         }
-    },
-    "suggest": {
-        "laravelista/lumen-vendor-publish": "Needed to publish the package configuration in Lumen"
     },
     "extra": {
         "laravel": {
